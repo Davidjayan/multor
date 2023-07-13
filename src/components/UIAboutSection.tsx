@@ -5,7 +5,7 @@ export const UIAboutSection = () => {
   return (
     <div className="grid md:grid-cols-2 grid-rows-2 justify-center md:my-20">
       <div>
-        <img style={{objectFit:'contain'}} className="w-full" src="https://d9hhrg4mnvzow.cloudfront.net/templates.unbounce.com/multor/df213ca0-multor-about_10cs0b400000000000001o.jpg" />
+        <img alt="about-image" style={{objectFit:'contain'}} className="w-full" src="https://d9hhrg4mnvzow.cloudfront.net/templates.unbounce.com/multor/df213ca0-multor-about_10cs0b400000000000001o.jpg" />
       </div>
       <div className="flex flex-col justify-center container md:p-20 gap-3">
         <UITitle>ABOUT</UITitle>

@@ -19,7 +19,7 @@ export const UITestimony = (props: Props) => {
       </div>
       <p className="italic">{testimony}</p>
       <div className="flex flex-row gap-5">
-        <img src={avatar} width={50} />
+        <img src={avatar} width={50} alt="person" />
         <div className="flex flex-col text-start">
           <p className="text-lg not-italic font-semibold">{name}</p>
           <p className="text-sm not-italic ">{location}</p>

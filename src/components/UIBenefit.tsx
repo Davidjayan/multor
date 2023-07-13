@@ -11,6 +11,7 @@ export const UIBenefit = (props: Props) => {
     <div className="flex flex-row md:w-[50%] justify-center">
       <div className="w-[20%]">
         <img
+          alt="benefit"
           style={{objectFit: "contain" }}
           src={imageSrc}
         />

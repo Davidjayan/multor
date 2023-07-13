@@ -7,6 +7,7 @@ export const UIFooter = () => {
         className="md:w-[50%] w-[90%] container flex md:flex-row flex-col md:justify-between md:gap-0 gap-5 justify-items-center items-center py-10"
       >
         <img
+          alt="logo"
           className="w-[100px]"
           src="https://d9hhrg4mnvzow.cloudfront.net/templates.unbounce.com/multor/77034ff2-multor-logo-footer.svg"
         />

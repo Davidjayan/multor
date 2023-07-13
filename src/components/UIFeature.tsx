@@ -11,7 +11,7 @@ export const UIFeature = (props: Props) => {
   return (
     <div className="flex flex-col gap-5">
       <div>
-        <img style={{objectFit:'contain'}} src={imageSrc} />
+        <img alt="feature"style={{objectFit:'contain'}} src={imageSrc} />
       </div>
       <p className="font-semibold font-sans">{name.toUpperCase()}</p>
       <p>{description}</p>

@@ -14,6 +14,7 @@ export const UIHeader = () => {
       <div className="container mx-auto py-10 md:w-[50%] w-[90%]">
         <div className="flex flex-col gap-10 md:py-10 md:w-[60%] md:my-10">
           <img
+          alt="logo"
             className="w-[138px]"
             src="https://d9hhrg4mnvzow.cloudfront.net/templates.unbounce.com/multor/42234823-multor-logo.svg"
           />
@@ -23,7 +24,7 @@ export const UIHeader = () => {
             Describe the value of booking an appointment
           </p>
           <p className="md:w-[45%] text-lg">
-            No need to get clever. Tell people exactly what you're offering,
+            No need to get clever. Tell people exactly what you&apos;re offering,
             then use this space to communicate your key value proposition.
           </p>
         </div>

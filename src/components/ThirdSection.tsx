@@ -16,7 +16,7 @@ export const ThirdSection = () => {
       <div className="md:w-[50%] w-[90%] container">
         <div className="md:w-[50%] gap-10 container flex flex-col md:py-20 py-10 justify-center text-center">
           <p className="font-sans font-medium md:text-5xl text-3xl leading-normal">
-            Show visitors what they're signing up for
+            Show visitors what they&apos;re signing up for
           </p>
           <p className="text-lg">
             Include a video or photo from one of your sessions to help people
@@ -26,8 +26,9 @@ export const ThirdSection = () => {
 
         <div className=" w-[100%]">
           <img
+            alt="Video"
             ref={thumbnailRef}
-            onClick={(e) => {
+            onClick={() => {
               thumbnailRef.current.classList.toggle("hidden");
               videoRef.current.classList.toggle("hidden");
               videoRef.current.play();
