@@ -14,4 +14,5 @@ https://templates.unbounce.com/multor/
 
 ## Demonstration Video
 
-[Title](<Screencast from 14-07-23 03:21:55 AM IST.webm>)
+https://github.com/Davidjayan/multor/assets/81207679/a2a86782-a00b-429b-805d-0af5a083ff24
+
